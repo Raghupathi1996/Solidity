@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.7.0",
+    "truffle": "5.0.42",
+    "web3": "^1.7.3",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3"
+  },
+  "name": "quire-contracts",
+  "description": "Deployment for quire contracts",
+  "version": "0.0.1",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test './test/"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha './test/app.spec.js'",
+    "com_con": "npx truffle exec scripts/test/initData.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crubn/quire-contracts.git"
+  },
+  "author": "CRUBN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crubn/quire-contracts/issues"
+  },
+  "homepage": "https://github.com/crubn/quire-contracts#readme"
+}

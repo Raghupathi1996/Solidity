@@ -1,0 +1,7 @@
+1. amendment PA should not take change in PE
+2.state 1s PE is able to submit a transaction using state2 PEs GID
+3.Vendor A getting onboarded from eGP state1 is not been restricted within state1 as eGP state2 will be able to push transaction
+against it without any seeding with the state2 eGP.
+4.PA validation is not happenidng in the invoke
+5.PA refno and bg uid match is not been validated
+6. generated uid already exists in the system or not for bankGauranteeRelease or Invoke

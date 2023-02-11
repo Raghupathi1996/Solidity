@@ -1,5 +1,0 @@
-# command on october 11
-
-GUARDIAN_PUB_KEY='0x9e7337b23d4cb5C853Da883ddffBdD985a7aaFc8' ./redeploy-quire.sh 1463d32d6c244b05e70a909c3a99bb14022f4ec8
-
-build-1463d32d6c244b05e70a909c3a99bb14022f4ec8
